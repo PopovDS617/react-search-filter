@@ -1,35 +1,23 @@
 .app {
-  margin: 50px;
+  margin: 0;
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 900px;
+  width: 100vw;
 }
-
 
 .search {
+  margin-top: 50px;
   padding: 10px;
-  font-size: 20px;
+  font-size: 30px;
 }
 
-.list {
-  padding: 0;
-  list-style: none;
-  text-align: center;
-}
-
-.listItem {
-  margin-bottom: 20px;
-  font-size: 25px;
-  color: #444;
-  font-weight: 300;
-}
-
-table {
-  width: 100%;
-  margin: 50px 0px;
+.table {
+  width: 60%;
+  margin-top: 75px;
   border-spacing: 15px;
   color: #444;
+  position: relative;
 }
 
 tr {
@@ -37,12 +25,16 @@ tr {
 }
 
 th {
-  width: 250px;
+  width: 280px;
   text-align: left;
-  font-size: 20px;
+  font-size: 30px;
 }
 
 td {
   width: 250px;
-  font-size: 20px;
+  font-size: 28px;
+}
+.not-found {
+  font-style: italic;
+  font-weight: bold;
 }
