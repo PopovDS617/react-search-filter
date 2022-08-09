@@ -24,7 +24,6 @@ function App() {
     );
   };
 
-  console.log(query);
   return (
     <div className="app">
       <input
